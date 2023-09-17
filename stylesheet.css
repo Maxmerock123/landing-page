@@ -48,6 +48,11 @@ li {
     color: white;
 }
 
+.right-links {
+    padding: 10px;
+
+}
+
 .body_1_container {
     padding: 50px;
     display: flex;
@@ -68,6 +73,8 @@ li {
     font-size: 30px;
     font-weight: 900px;
 }
+
+
 
 .sign_up {
     background-color: rgb(255, 163, 26);
@@ -97,18 +104,26 @@ li {
 .image_container {
     display: flex;
     justify-content: center;
-    flex: auto;
-
+    flex: 1 1 0;
 
 }
+
 
 .img_rocker {
     display:flex;
     flex: 1 1 0;
     border-radius: 30px;
     width: 300px;
-    max-width: 600px;
+    max-width: 700px;
+    transition: 5s;
+    
 }
+
+.img_rocker:hover {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
 
 .info_container {
     color: white;
@@ -129,6 +144,7 @@ li {
     flex: 1 1 0;
     gap: 30px;
     flex-wrap: wrap;
+    margin: 30px;
 }
 
 .info_image_container > div > a {
@@ -153,6 +169,7 @@ li {
     display:flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
     margin-bottom: auto;
     background-color: black;
@@ -168,7 +185,7 @@ li {
 .guitar_img {
     width: 250px;
     border-radius: 30px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .guitar_img:hover {
@@ -194,4 +211,24 @@ li {
     width: 500px;
     justify-content: space-around;
     align-items: center;
+    
+    border-radius: 30px;
+    background-color: #5c2020;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer_sign_up {
+        background-color: rgb(255, 163, 26);
+        padding: 10px 20px;
+        border-radius: 30px;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        border: 10px black;
+        transition: 0.5s;
+}
+.footer_sign_up:hover {
+    padding: 20px 30px
 }
